@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
+@import url(http://fonts.googleapis.com/css?family=Aladin);
 
 body,
 html,
@@ -20,10 +20,9 @@ div.board {
 }
 
 div.note {
-  height: 150px;
-  width: 150px;
+  height: 200px;
+  width: 200px;
   background-color: chartreuse;
-  margin: 2px 0;
   position: absolute;
   cursor: -webkit-grab;
   box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, .2);
@@ -38,7 +37,7 @@ div.note p {
   margin: 0;
   font-size: 22px;
   padding: 5px;
-  font-family: "Shadows Into Light", Arial;
+  font-family: "Aladin", Arial;
 }
 
 div.note:hover > span {
@@ -58,8 +57,14 @@ div.note button {
 }
 
 div.note > textarea {
-  height: 75%;
+  margin-left: 3%;
+  height: 80%;
+  width: 90%;
   background: rgba(255, 255, 255, .5);
+}
+
+div.note > button {
+  margin-left: 70%;
 }
 
 .board > button {
@@ -67,4 +72,8 @@ div.note > textarea {
   top: 10px;
   right: 10px;
   font-size: 1.5em;
+}
+
+.edit-area, button {
+  font-family: "Aladin", Arial;
 }
